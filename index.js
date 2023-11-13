@@ -36,6 +36,6 @@ server.on('upgrade', (req, socket, head) => {
 server.listen({
   port: port,
 }, () => {
-  console.log(chalk.green(`Welcome to ${chalk.green.bold('Abyss Version 5. ')}If you encounter an error, report it to our staff.`))
+  console.log(chalk.green(`Welcome to ${chalk.green.bold('Old Abyss. ')}If you encounter an error, report it to our staff.`))
   console.log(chalk.green.bold("[ABYSS] ") + "live at port " + chalk.bold.green(port));
 });
